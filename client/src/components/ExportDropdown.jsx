@@ -5,7 +5,7 @@ export const ExportDropdown = ({ meetingId }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const downloadFile = (url, name) => {
-    window.open(`http://localhost:5000/api/exports/${url}`, '_blank');
+    window.open(`http://localhost:5050/api/exports/${url}`, '_blank');
     setIsOpen(false);
   };
 

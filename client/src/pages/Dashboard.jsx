@@ -185,7 +185,7 @@ export const Dashboard = () => {
               Edit Agenda & Roles
             </Link>
             <a
-              href={`http://localhost:5000/api/exports/meeting/${nextMeeting._id}/agenda-pdf`}
+              href={`http://localhost:5050/api/exports/meeting/${nextMeeting._id}/agenda-pdf`}
               target="_blank"
               rel="noreferrer"
               className="flex-1 md:flex-initial text-center px-4 py-2 rounded-xl text-xs font-bold bg-pastel-500 text-white hover:bg-pastel-600 shadow-cute transition-all"
