@@ -1,0 +1,26 @@
+{
+  "name": "sliit-gavel-vpe-server",
+  "version": "1.0.0",
+  "description": "SLIIT Gavel Club VPE Planning & Tracking Tool API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seeds/seedData.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.1",
+    "express-async-errors": "^3.1.1",
+    "ics": "^3.8.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.1.2",
+    "mongoose": "^8.8.0",
+    "multer": "^1.4.5-lts.1",
+    "pdfmake": "^0.2.14",
+    "zod": "^3.23.8"
+  }
+}
